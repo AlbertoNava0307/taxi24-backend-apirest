@@ -13,21 +13,21 @@ Entonces la aplicación estará lista para realizar pruebas
 
 End Points
 
-El servicio estará corriendo en: 'http://localhost:9000/taxi24/'
+El servicio estará corriendo en: 'http://localhost:9000/taxi24/'  <br/>
 
-Ejemplo de solicitud: http://localhost:9000/taxi24/conductores
+Ejemplo de solicitud: http://localhost:9000/taxi24/conductores  <br/>
 
 Conductores
-/conductores                            -     Obtiene lista de todos los conductores
-/conductores-disponibles                -     Obtiene lista de todos los disponibles
-/conductores-disponibles-location       -     Obtiene lista de todos los conductores disponibles en un rango de 3km
-/conductores/{id}                       -     Obtiene un conductor especifico por ID
+/conductores                            -     Obtiene lista de todos los conductores <br/>
+/conductores-disponibles                -     Obtiene lista de todos los disponibles <br/>
+/conductores-disponibles-location       -     Obtiene lista de todos los conductores disponibles en un rango de 3km <br/>
+/conductores/{id}                       -     Obtiene un conductor especifico por ID <br/>
 
 Pasajeros
-/pasajeros"                             -     Obtiene una lista de todos los pasajeros
-/pasajeros/{id}                         -     Obtiene un pasajero especifico por ID
-/conductores-cercanos                   -     Obtiene una lista de los 3 conductores más cercanos al punto de partida
+/pasajeros"                             -     Obtiene una lista de todos los pasajeros <br/>
+/pasajeros/{id}                         -     Obtiene un pasajero especifico por ID <br/>
+/conductores-cercanos                   -     Obtiene una lista de los 3 conductores más cercanos al punto de partida <br/>
 
 Viajes
-/viajes                                 -     Obtiene una lista de todos los viajes activos
-/viajes                                 -     Crea una neva solicitud de "Viaje" asignando un conductor al viaje
+/viajes                                 -     Obtiene una lista de todos los viajes activos <br/>
+/viajes                                 -     Crea una neva solicitud de "Viaje" asignando un conductor al viaje <br/>
